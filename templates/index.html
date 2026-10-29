@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Diallo | Data Engineer Junior</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Alpha Diallo</h2>
+
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<img src="{{ url_for('static', filename='images/profile.jpg') }}" class="profile-img" alt="Alpha Diallo">
+
+<section class="hero">
+    <h1>Alpha Diallo</h1>
+
+    <h2>Data Engineer Junior | Data Analyst | Développeur</h2>
+
+    <p> Data Engineer Junior | Data Analyst | Développeur, je conçois des pipelines de données,
+        automatise les traitements et développe des applications data afin de transformer les données
+        en informations exploitables pour la prise de décision.
+    </p>
+
+    <div class="buttons">
+        <a href="https://github.com/Alpha38diallo" target="_blank">
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/alpha-diallo-8ab833441" target="_blank">
+            LinkedIn
+        </a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>À propos</h2>
+
+    <p>
+        Je développe des projets en Data Engineering, Data Analytics et Développement Web.
+        Mon objectif est de devenir Data Engineer et de construire des pipelines
+        de données performants et automatisés.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Compétences Techniques</h2>
+
+    <div class="skills-container">
+
+        <div class="card">
+            <h3>Data Engineering</h3>
+            <p>Python, SQL, Airflow, ETL, Git</p>
+        </div>
+
+        <div class="card">
+            <h3>Data Analytics</h3>
+            <p>Pandas, Streamlit, Power BI</p>
+        </div>
+
+        <div class="card">
+            <h3>Développement Web</h3>
+            <p>HTML, CSS, JavaScript, Flask</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Mes Projets</h2>
+
+    <div class="projects-container">
+
+        <div class="project">
+            <img src="{{ url_for('static', filename='images/air-quality-pipeline.png') }}" alt="Air Quality Pipeline">
+            <h3>Air Quality Pipeline</h3>
+            <p> Pipeline automatisé de collecte, transformation et visualisation de données avec Airflow et Streamlit. </p>
+            <a href="https://github.com/Alpha38diallo/air-quality-pipeline"
+               target="_blank"
+               class="project-btn">
+
+               Voir sur GitHub
+
+            </a>
+        </div>
+
+        <div class="project">
+            <img src="{{ url_for('static', filename='images/fuel-price-france.png') }}" alt="Fuel Price France">
+            <h3>Fuel Price France</h3>
+            <p> Pipeline automatisé de collecte, transformation et visualisation de données avec Airflow et Streamlit. </p>
+            <a href="https://github.com/Alpha38diallo/fuel-price-france"
+               target="_blank"
+               class="project-btn">
+
+               Voir sur GitHub
+
+            </a>
+        </div>
+
+        <div class="project">
+            <img src="{{ url_for('static', filename='images/crime-statistics-france.png') }}" alt="Crime Statistics France">
+            <h3>Crime Statistics France</h3>
+            <p> Pipeline automatisé de collecte, transformation et visualisation de données avec Airflow et Streamlit. </p>
+            <a href="https://github.com/Alpha38diallo/crime-statistics-france"
+               target="_blank"
+               class="project-btn">
+
+               Voir sur GitHub
+
+            </a>
+        </div>
+
+        <div class="project">
+            <img src="{{ url_for('static', filename='images/audio-player.png') }}" alt="Audio Player">
+            <h3>Lecteur Audio</h3>
+            <a href="https://github.com/Alpha38diallo/Creation_dun_lecteur_audio"
+               target="_blank"
+               class="project-btn">
+
+               Voir sur GitHub
+
+            </a>
+        </div>
+
+        <div class="project">
+            <img src="{{ url_for('static', filename='images/loan-calculator.png') }}" alt="Loan Calculator">
+            <h3>Calculateur de Prêt</h3>
+            <a href="https://github.com/Alpha38diallo/Calculateur_de_pr-t"
+               target="_blank"
+               class="project-btn">
+
+               Voir sur GitHub
+
+            </a>
+
+        </div>
+
+        <div class="project">
+            <img src="{{ url_for('static', filename='images/particules16.png') }}" alt="Particules16">
+            <h3>Particules16</h3>
+            <a href="https://github.com/Alpha38diallo/Particules16"
+               target="_blank"
+               class="project-btn">
+
+               Voir sur GitHub
+
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email : bremeh2004@gmail.com</p>
+
+    <p>
+        GitHub :
+        <a href="https://github.com/Alpha38diallo">
+            Alpha38diallo
+        </a>
+    </p>
+
+    <p>
+        LinkedIn :
+        <a href="https://www.linkedin.com/in/alpha-diallo-8ab833441">
+            Alpha Diallo
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Alpha Diallo</p>
+</footer>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

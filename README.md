@@ -31,4 +31,4 @@ Je conçois des pipelines de données, automatise les traitements et développe 
 - Email : bremeh2004@gmail.com
 - LinkedIn : https://www.linkedin.com/in/alpha-diallo-8ab833441
 - GitHub : https://github.com/Alpha38diallo
-- https://portfolio-alpha-ptdb.onrender.com
+- Portfolio: https://portfolio-alpha-ptdb.onrender.com
